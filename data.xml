@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <attributekeys>
+        <attributekey handle="page_selector_redirect" name="Page Selector Redirect" package="temporary_redirect_attribute"
+                      searchable="1"
+                      indexed="0" type="page_selector"
+                      category="collection"/>
+    </attributekeys>
+</concrete5-cif>

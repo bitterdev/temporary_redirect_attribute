@@ -1,4 +1,4 @@
-var packageName = "html_beautifier";
+var packageName = "temporary_redirect_attribute";
 
 module.exports = function (grunt) {
     grunt.initConfig({
@@ -29,8 +29,8 @@ module.exports = function (grunt) {
         copy: {
             main: {
                 files: [
-                    {src: ['vendor/**'], dest: "dist/"},
                     {src: ['controller.php'], dest: "dist/", filter: 'isFile'},
+                    {src: ['db.xml'], dest: "dist/", filter: 'isFile'},
                     {src: ['icon.png'], dest: "dist/", filter: 'isFile'},
                     {src: ['INSTALL.TXT'], dest: "dist/", filter: 'isFile'},
                     {src: ['LICENSE.TXT'], dest: "dist/", filter: 'isFile'},
