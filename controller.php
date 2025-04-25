@@ -12,7 +12,7 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 class Controller extends Package
 {
     protected string $pkgHandle = 'temporary_redirect_attribute';
-    protected string $pkgVersion = '0.0.1';
+    protected string $pkgVersion = '0.0.2';
     protected $appVersionRequired = '9.0.0';
 
     public function getPackageDescription(): string
